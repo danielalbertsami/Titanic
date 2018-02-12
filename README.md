@@ -3,6 +3,10 @@
 Given a CSV file of data containing varied pieces of information about passengers on the Titanic,
 we seek a machine-learning-based approach to reliably predict whether or not
 a given passenger survived.
+
+-Note: includes the mla library for learning algorithm implementations under the MIT license.
+The primary goal of this is to have some fun with messing with the data, without worrying
+about established algorithm implementation, since we don't want to reinvent the wheel.
 ## Intuition-Based Analysis
 The following data points are given, with notes on how each might be used in a predictive model.
 * **Passenger ID**: A unique identifier used as a dictionary key in this model.
