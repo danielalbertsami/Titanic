@@ -13,7 +13,8 @@ The following data points are given, with notes on how each might be used in a p
 * **Survived**: A binary result value used to determine whether the model is accurate.
 * **Passenger Class**: Possible values are 1, 2, and 3 for first, second, and third class. In this model,
 this will be interpreted as a categorical variable.
-* **Name**: Names will be ignored in this model as intuition indicates there isn't a strong enough correlation for the data points to be useful.
+* **Name**: ~~Names will be ignored in this model as intuition indicates there isn't a strong enough correlation for the data points to be useful.~~
+Instead, we pull this out and turn it into a variable based on the honorific of the person (Mr., Mrs., etc.)
 * **Sex**: Assigned as a binary categorical variable.
 * **Age**: Assigned as a linear variable.
 * **Siblings and Spouses**: Assigned as a linear variable.
