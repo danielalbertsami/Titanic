@@ -23,5 +23,3 @@ Instead, we pull this out and turn it into a variable based on the honorific of 
 * **Passenger Fare**: Potentially considered as a linear variable, may be removed later if not found to be useful.
 * **Cabin Number**: Many gaps in this data point exist, and while it might be useful to indicate position on the ship, will be ignored to avoid clouding results.
 * **Port of Embarkation**: Used as a ternary categorical variable that may be ultimately ignored depending on model performance.
-## Implementation
-**TODO**
